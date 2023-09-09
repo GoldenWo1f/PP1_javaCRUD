@@ -1,0 +1,15 @@
+1|culture|문화, 교양
+2|experience|경험
+2|education|교육
+2|symbol|상징
+1|effect|결과, 영향, 효과
+2|liberty|자유
+3|affair|사건, 일
+2|comfort|안락, 위안
+3|tradition|전통, 전설
+2|subject|학과, 주제, 주어
+1|object|사물, 목적, (동)반대하다
+2|source|출처, 근원
+3|revolution|혁명
+1|pollution|오염
+2|system|조직, 체계, 지도
