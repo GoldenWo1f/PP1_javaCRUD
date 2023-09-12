@@ -13,3 +13,7 @@
 3|revolution|혁명
 1|pollution|오염
 2|system|조직, 체계, 지도
+1|apple|사과
+2|maintain|유지하다
+1|banana|바나나
+3|sustainable|지속가능한

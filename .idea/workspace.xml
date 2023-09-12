@@ -4,9 +4,10 @@
     <option name="autoReloadType" value="SELECTIVE" />
   </component>
   <component name="ChangeListManager">
-    <list default="true" id="6933936d-68e1-4dd3-910a-3fcacfeeb175" name="Changes" comment="Java CRUD - Delete">
-      <change afterPath="$PROJECT_DIR$/Dictionary.txt" afterDir="false" />
+    <list default="true" id="6933936d-68e1-4dd3-910a-3fcacfeeb175" name="Changes" comment="load file">
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/Dictionary.txt" beforeDir="false" afterPath="$PROJECT_DIR$/Dictionary.txt" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/java/com/mycom/word/Word.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/com/mycom/word/Word.java" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/src/main/java/com/mycom/word/WordCRUD.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/com/mycom/word/WordCRUD.java" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/src/main/java/com/mycom/word/WordManager.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/com/mycom/word/WordManager.java" afterDir="false" />
     </list>
@@ -61,7 +62,8 @@
       <updated>1693844436931</updated>
       <workItem from="1693844437970" duration="2506000" />
       <workItem from="1693888941683" duration="1478000" />
-      <workItem from="1693897305042" duration="13558000" />
+      <workItem from="1693897305042" duration="14919000" />
+      <workItem from="1694502204028" duration="2575000" />
     </task>
     <task id="LOCAL-00001" summary="Create project">
       <option name="closed" value="true" />
@@ -95,7 +97,15 @@
       <option name="project" value="LOCAL" />
       <updated>1694250726466</updated>
     </task>
-    <option name="localTasksCounter" value="5" />
+    <task id="LOCAL-00005" summary="load file">
+      <option name="closed" value="true" />
+      <created>1694254104953</created>
+      <option name="number" value="00005" />
+      <option name="presentableId" value="LOCAL-00005" />
+      <option name="project" value="LOCAL" />
+      <updated>1694254104954</updated>
+    </task>
+    <option name="localTasksCounter" value="6" />
     <servers />
   </component>
   <component name="TypeScriptGeneratedFilesManager">
@@ -105,6 +115,7 @@
     <MESSAGE value="Create project" />
     <MESSAGE value="Java CRUD - Read" />
     <MESSAGE value="Java CRUD - Delete" />
-    <option name="LAST_COMMIT_MESSAGE" value="Java CRUD - Delete" />
+    <MESSAGE value="load file" />
+    <option name="LAST_COMMIT_MESSAGE" value="load file" />
   </component>
 </project>
