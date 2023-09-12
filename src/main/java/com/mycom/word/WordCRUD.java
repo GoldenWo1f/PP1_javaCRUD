@@ -111,7 +111,7 @@ public class WordCRUD implements ICRUD{
             while(true) {
                 line = br.readLine();
                 if(line == null) break;
-                String data[] = line.split("\\|");
+                String[] data = line.split("\\|");
                 int level = Integer.parseInt(data[0]);
                 String word = data[1];
                 String meaning = data[2];
@@ -120,8 +120,6 @@ public class WordCRUD implements ICRUD{
             }
             br.close();
             System.out.println("=> " + id + "개 단어 로딩 완료!");
-        } catch (FileNotFoundException e) {
-            throw new RuntimeException(e);
         } catch (IOException e) {
             throw new RuntimeException(e);
         }
