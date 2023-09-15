@@ -48,7 +48,23 @@ public class WordCRUD implements ICRUD{
         for(int i=0; i<list.size(); i++){
             String word = list.get(i).getWord();
             if(!word.contains(keyword)) continue;
-            System.out.print(j+1 + " ");
+            System.out.printf("%3d ", j+1);
+            System.out.println(list.get(i).toString());
+            idlist.add(i);
+            j++;
+        }
+        System.out.println("------------------------------");
+
+        return idlist;
+    }
+    public ArrayList<Integer> listAll(int keynumber){
+        ArrayList<Integer> idlist = new ArrayList<>();
+        int j = 0;
+        System.out.println("------------------------------");
+        for(int i=0; i<list.size(); i++){
+            int level = list.get(i).getLevel();
+            if(level != keynumber) continue;
+            System.out.printf("%3d ", j+1);
             System.out.println(list.get(i).toString());
             idlist.add(i);
             j++;
@@ -136,5 +152,17 @@ public class WordCRUD implements ICRUD{
         } catch (IOException e) {
             throw new RuntimeException(e);
         }
+    }
+
+    public void findLevel(){
+        System.out.print("=> 레벨 입력 : ");
+        int keynumber = s.nextInt();
+        ArrayList<Integer> idlist = this.listAll(keynumber);
+    }
+
+    public void findWord(){
+        System.out.print("=> 단어 검색 : ");
+        String keyword = s.next();
+        ArrayList<Integer> idlist = this.listAll(keyword);
     }
 }
